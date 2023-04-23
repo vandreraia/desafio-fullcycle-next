@@ -1,0 +1,12 @@
+###
+
+GET http://localhost:3000/api/chats
+
+###
+
+POST http://localhost:3000/api/chats
+content-type: application/json
+
+{
+    "mensagem": "mensagem enviada"
+}
